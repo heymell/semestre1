@@ -36,3 +36,28 @@ programa {
     
   }
 }
+
+#lição 03.
+programa {
+  funcao inicio() {
+
+    real N1, N2, velocidade 
+
+    escreva("Velocidade máxima permitida")
+    leia(N1)
+    escreva("Velocidade do veículo")
+    leia(N2)
+
+    velocidade = N1 - N2
+    se(velocidade<10){
+      escreva("O valor da multa é de R$50.00")
+    }
+    senao se (velocidade>10 e velocidade<=30){
+      escreva("O valor da multa é de R$100.00")
+    }
+    senao
+    {
+      escreva("O valor da multa é de R$200.00")
+      }
+  }
+}
