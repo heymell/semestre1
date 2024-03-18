@@ -1,5 +1,23 @@
+#lição 01
+programa {
+  funcao inicio() {
+    
+    //Questão 01
+    real N1
+    escreva("Valor solicitado")
+    leia(N1)
+    se (N1 < 10){
+      escreva("Menor que 10!")
+    }
+    senao {
+      escreva("Maior que 10!")
+    }
+  }
+}
+
+
 #lição 02.
-rograma {
+programa {
   funcao inicio() {
     
     real quantidade, valor 
