@@ -125,6 +125,119 @@ QUESTÕES OSVALDO
 }
 
 ============================================================================================
+questao 02. 
+
+programa {
+  funcao inicio() {
+    real custo_fabrica, imposto, lucro_distribuidor, preco_consumidor
+
+    escreva("Digite o preço do custo de fábrica do carro: \n")
+    leia(custo_fabrica)
+
+    imposto = 0.45 * custo_fabrica
+
+    lucro_distribuidor = 0.12 * custo_fabrica
+
+    preco_consumidor = custo_fabrica + imposto + lucro_distribuidor
+
+    escreva("O preço ao consumidor é: \n", preco_consumidor)
+
+    
+  }
+}
+
+============================================================================================
+questao 20. 
+programa {
+  funcao inicio() {
+    inteiro valor1, valor2, valor3, valor4, valor5, valor6, soma
+
+    escreva("Digite o primeiro valor: \n")
+    leia(valor1)
+
+    escreva("Digite o segundo valor: \n")
+    leia(valor2)
+
+    escreva("Digite o terceiro valor: \n")
+    leia(valor3)
+
+    escreva("Digite o quarto valor: \n")
+    leia(valor4)
+
+    escreva("Digite o quinto valor: \n")
+    leia(valor5)
+
+    escreva("Digite o sexto valor: \n")
+    leia(valor6)
+
+    soma = valor1 + valor2 + valor3 + valor4 + valor5 + valor6
+
+    escreva("A soma dos valores é: \n", soma)
 
 
+  }
+}
+============================================================================================
+questao 04. 
+programa {
+  funcao inicio() {
+    real nota1, nota2, nota3, media
+    inteiro faltas
 
+    escreva("Digite a primeira nota: \n")
+    leia(nota1)
+
+    escreva("Digite a segunda nota: \n")
+    leia(nota2)
+
+    escreva("Digite a terceira nota: \n")
+    leia(nota3)
+
+    media = (nota1 + nota2 + nota3) / 3
+
+    escreva("Número total de faltas: \n")
+    leia(faltas)
+    
+    se (faltas > 15) {
+      escreva("Você foi reprovado por excesso de falta. \n")
+  }
+    senao se (media >= 6){
+      escreva("Sua média é: \n", media)
+      escreva("APROVADO!")
+    }
+    senao se (media >= 3){
+      escreva("Sua média é: \n", media)
+      escreva("RECUPERAÇÃO!")
+    }
+    senao {
+      escreva("Sua média é: \n", media)
+      escreva("Reprovado!")
+    }
+    
+  }
+}
+============================================================================================
+questão 04
+programa {
+  funcao inicio() {
+    real num1, num2, num3, soma
+
+    escreva("Digite o primeiro número: \n")
+    leia(num1)
+
+    escreva("Digite o segundo número: \n")
+    leia(num2)
+
+    escreva("Digite o terceiro número: \n")
+    leia(num3)
+
+    soma = num2 + num3
+
+    se (num1 > soma){
+      escreva("O primeiro número", num1, "é maior do que a soma do", num2, "e", num3)
+    }
+    senao {
+      escreva("O primeiro número", num1, "não é maior do que a soma do", num2, "e", num3)
+    }
+  }
+}
