@@ -97,3 +97,34 @@ elif (media<6):
     print("RECUPERAÇÃO")
 else:
     print("APROVADO")        
+
+
+============================================================================================
+QUESTÕES OSVALDO
+
+01. programa {
+  funcao inicio() 
+  {
+    real preco_maco, total_gasto
+    inteiro anos_fumando, cigarros_por_dia, total_cigarros
+
+    escreva("Há quantos anos você fuma? \n")
+    leia(anos_fumando)
+
+    escreva("Quantos cigarros você fuma por dia? \n")
+    leia(cigarros_por_dia)
+
+    escreva("Qual o preço do maço que você compra? \n")
+    leia(preco_maco)
+    
+    total_cigarros = anos_fumando  * 365 * cigarros_por_dia
+    total_gasto = (total_cigarros / 20) * preco_maco
+
+    escreva("O seu gasto anual com cigarros é:", total_gasto)
+  } 
+}
+
+============================================================================================
+
+
+
