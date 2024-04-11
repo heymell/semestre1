@@ -241,3 +241,30 @@ programa {
     }
   }
 }
+
+============================================================================================
+programa {
+  funcao inicio() {
+    caractere nome_produto, descricao, validade
+    real preco
+
+    escreva("Digite o nome do produto: \n")
+    leia(nome_produto)
+
+    escreva("Digite a descrição do produto: \n")
+    leia(descricao)
+
+    escreva("Digite o preço do produto: \n")
+    leia(preco)
+
+    escreva("Digite a data de validade do produto (DD/MM/AAAA): \n")
+    leia(validade)
+
+    escreva("Esses são os dados dos produtos cadastrados: \n")
+    escreva("Nome do produto: ", nome_produto, "\n")
+    escreva("Descrição do produto: R$ ", descricao, "\n")
+    escreva("Preço do produto: ", preco, "\n")
+    escreva("Validade do produto", validade, "\n")
+    
+  }
+}
